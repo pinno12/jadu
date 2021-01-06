@@ -1,0 +1,58 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+
+    <title>꼼즈와 무신사</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        A Dream of the Future
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Oh hi오키도키</p>
+      
+ 
+      
+      <p>Tell me your hopes and dreams:</p>
+      
+      <form>
+        <input name="dream" aria-label="a new dream" type="text" maxlength="100" placeholder="Dreams!">
+        <button type="submit" id="submit-dream">Submit Dream</button>
+      </form>
+      
+      <section class="dreams">
+        <ul id="dreams"></ul>
+        <button id="clear-dreams">
+          Clear Dreams
+        </button>
+      </section>
+      
+    </main>
+
+    <footer>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
